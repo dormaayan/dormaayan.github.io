@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Computer Science Ph.D. Student
+title: about
 permalink: /
-subtitle: <a href='#'>Tel Aviv Unoversity</a>.
+subtitle: Computer Science Ph.D. Student, <a href='#'>Tel Aviv Unoversity</a>.
 
 profile:
   align: right
