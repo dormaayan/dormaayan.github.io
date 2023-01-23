@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Computer Science Ph.D. Student
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Tel Aviv Unoversity</a>.
 
 profile:
   align: right
