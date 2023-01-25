@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Computer Science Ph.D. Student, <a href='#'>Tel Aviv Unoversity</a>.
+subtitle: Computer Science Ph.D. Student, <a href='#'>Tel Aviv University</a>.
 
 profile:
   align: right
@@ -14,7 +14,7 @@ profile:
     <p>Tel Aviv University</p>
     <p>Tel Aviv 6997801, Israel</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
