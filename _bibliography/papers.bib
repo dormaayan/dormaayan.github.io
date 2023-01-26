@@ -21,20 +21,23 @@
   number={},
   abbr={ICSE},
 	selected={true},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={Reactive synthesis is an automated procedure to obtain a correct-by-construction reactive system from its temporal logic specification. Two of the main challenges in bringing reactive synthesis to practice are its very high worst-case complexity and the difficulty of writing declarative specifications using basic LTL operators. To address the first challenge, researchers have suggested the GR(1) fragment of LTL, which has an efficient polynomial time symbolic synthesis algorithm. To address the second challenge, specification languages include higher-level constructs that aim at allowing engineers to write succinct and readable specifications. One such construct is the triggers operator, as supported, e.g., in the Property Specification Language (PSL).
+In this work we introduce triggers into specifications for reactive synthesis. The effectiveness of our contribution relies on a novel encoding of regular expressions using symbolic finite automata (SFA) and on a novel semantics for triggers that, in contrast to PSL triggers, admits an efficient translation into GR(1). We show that our triggers are expressive and succinct, and prove that our encoding is optimal. We have implemented our ideas on top of the Spectra language and synthesizer. We demonstrate the usefulness and effectiveness of using triggers in specifications for synthesis, as well as the challenges involved in using them, via a study of more than 300 triggers written by undergraduate students who participated in a project class on writing specifications for synthesis. To the best of our knowledge, our work is the first to introduce triggers into specifications for reactive synthesis.}
   }
 
 
 @INPROCEEDINGS{Patterns,
   author={Dor Ma'ayan and Shahar Maoz and Jan Oliver Ringert},
   booktitle={2023 IEEE/ACM 45rd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)}, 
-  title={Using Reactive Synthesis: An End-to-End Exploratory Case Study}, 
+  title={Anti-Patterns in Temporal Specifications}, 
   year={2023},
   volume={},
   number={},
   abbr={ICSE NIER},
 	selected={true},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={Temporal specifications are essential inputs for verification and synthesis. Despite their importance, temporal specifications are challenging to write, which might limit their use by software engineers. To this day, almost no quality attributes of temporal specifications have been defined and investigated. Our work takes a first step toward exploring and improving the quality of temporal specifications by proposing a preliminary catalog of anti-patterns (a.k.a. smells). We base the catalog on our experience in developing and teaching temporal specifications for verification and synthesis. In addition, we examined publicly available specification repositories and relevant literature. Finally, we outline our future plans for a better understanding of what constitutes high-quality temporal specifications and the development of tools that will help engineers write them.}
   }
 
 
@@ -57,7 +60,8 @@
   bibsource = {dblp computer science bibliography, https://dblp.org},
   abbr={VISSOFT},
   pdf={VISSOFT17.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={Care and great e.ort are often taken to dress program code of libraries, just as model implementations, in its most presentable form, which includes adherence to strict coding standards, careful selection of identifiers, avoiding unnecessary constructs, etc. However, a presentable dress is not a janitor's uniform and is often inferior to the more lax working outfit.The spartanizer is a tool that brings Java code into a canonical, short form. Trying to say the most with the fewest words. In contrast, the athenizer is a tool that expands the code, placing it in a more maintainable form, using plenty of auxiliary variables, many potential locations for breakpoints and for change.The tool reported on here allows developers to interactively use their joystick and its buttons for code navigation, and in particular for zooming-in into the code (athenizing) and zooming-out of it (spartanizing).}
 }
 
 @inproceedings{DBLP:conf/icse/Maayan18,
@@ -81,7 +85,8 @@
   bibsource = {dblp computer science bibliography, https://dblp.org},
   abbr={SQUADE},
   pdf={SQUADE18.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={The quality of unit tests gains substantial importance in modern software systems. This work explores the way in which Junit tests are written in real world Java systems. We analyse 112 Java repositories and measure the quality of unit tests by finding patterns which indicate good practices of coding. Our results show that the quality of real world unit tests is low, and that in many cases, unit tests don't follow the well-known recommendations for writing unit tests. These early results demonstrate the need for more tools and techniques for refactoring of tests.}
 }
 
 @article{DBLP:journals/tog/YeNKMWASC20,
@@ -107,7 +112,8 @@
   abbr={SIGGRAPH},
 	selected={true},
   pdf={SIGGRAPH20.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={We introduce a system called Penrose for creating mathematical diagrams. Its basic functionality is to translate abstract statements written in familiar math-like notation into one or more possible visual representations. Rather than rely on a fixed library of visualization tools, the visual representation is user-defined in a constraint-based specification language; diagrams are then generated automatically via constrained numerical optimization. The system is user-extensible to many domains of mathematics, and is fast enough for iterative design exploration. In contrast to tools that specify diagrams via direct manipulation or low-level graphics programming, Penrose enables rapid creation and exploration of diagrams that faithfully preserve the underlying mathematical meaning. We demonstrate the effectiveness and generality of the system by showing how it can be used to illustrate a diverse set of concepts from mathematics and computer graphics.}
 }
 
 @inproceedings{DBLP:conf/models/MaayanMR22,
@@ -133,7 +139,12 @@
   bibsource = {dblp computer science bibliography, https://dblp.org},
   abbr={MODELS},
   pdf={MODELS22.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={Reactive synthesis is an automated procedure to obtain a correct-by-construction reactive system from its temporal logic specification. While the synthesized system is guaranteed to be correct w.r.t. the specification, the specification itself may be incorrect w.r.t. the engineers' intention or w.r.t. the requirements or the environment in which the system should execute in. It thus requires validation.
+
+Combinatorial coverage (CC) is a well-known coverage criterion. Its rationale and key for effectiveness is the empirical observation that in many cases, the presence of a defect depends on the interaction between a small number of features of the system at hand.
+In this work we propose a validation approach for a reactive system specification, based on a systematic combinatorial exploration of the behaviors of a controller that was synthesized from it. Specifically, we present an algorithm to generate and execute a small scenario suite that covers all tuples of given variable value combinations over the reachable states of the controller.
+We have implemented our work in the Spectra synthesis environment. We evaluated it over benchmarks from the literature using a mutation approach, specifically tailored for evaluating scenario suites of temporal specifications for reactive synthesis. The evaluation shows that for pairwise coverage, our CC algorithms are feasible and provide a 1.7 factor of improvement in mutation score compared to random scenario generation. We further report on a user study with students who have participated in a workshop class at our university and have used our tool to validate their specifications. The user study results demonstrate the potential effectiveness of our work in helping engineers detect real bugs in the specifications they write.}
 }
 
 @inproceedings{DBLP:conf/chi/MaayanNYKS20,
@@ -169,5 +180,6 @@
   abbr={CHI},
 	selected={true},
   pdf={CHI20.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  abstract={Conceptual diagrams are used extensively to understand abstract relationships, explain complex ideas, and solve difficult problems. To illustrate concepts effectively, experts find appropriate visual representations and translate concepts into concrete shapes. This translation step is not supported explicitly by current diagramming tools. This paper investigates how domain experts create conceptual diagrams via semi-structured interviews with 18 participants from diverse backgrounds. Our participants create, adapt, and reuse visual representations using both sketches and digital tools. However, they had trouble using current diagramming tools to transition from sketches and reuse components from earlier diagrams. Our participants also expressed frustration with the slow feedback cycles and barriers to automation of their tools. Based on these results, we suggest four opportunities of diagramming tools — exploration support, representation salience, live engagement, and vocabulary correspondence — that together enable a natural diagramming experience. Finally, we discuss possibilities to leverage recent research advances to develop natural diagramming tools.}
 }
