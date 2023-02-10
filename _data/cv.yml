@@ -14,8 +14,8 @@
     - title: PhD
       institution: University of Tel Aviv, Tel Aviv, Israel
       year: 2022-Today
-      description:
-        - Advisor: Prof. Shahar Maoz
+      # description:
+        # - Advisor Prof. Shahar Maoz
         # - Description 2.
         # - title: Description 3.
         #   contents:
@@ -24,9 +24,9 @@
     - title: MSc
       institution: Technion, Haifa, Israel
       year: 2021
-      description:
-        - Advisor: Prof. Yossi Gil
-        - Theis: Better Prediction of Muatation Score
+      #description:
+        # - Advisor: Prof. Yossi Gil
+        # - Theis: Better Prediction of Muatation Score
     - title: BSc
       institution: Technion, Haifa, Israel
       year: 2017
@@ -75,16 +75,15 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items: 
+        - CHI 2020 Best Paper Honorable Mention Award (top 5%)
+    - year: 2017
+      items: 
+        - Max Planck Medal
 
 # - title: Academic Interests
 #   type: nested_list
