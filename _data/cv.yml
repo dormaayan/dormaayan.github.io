@@ -85,7 +85,7 @@
       items: 
         - Amdocs Prize, Tehcnion
     - year: 2016-2017
-      item:
+      items:
         - Dean's list, Technion
 # - title: Academic Interests
 #   type: nested_list
