@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Computer Science Ph.D. Student, <a href='#'>Tel Aviv University</a>.
+subtitle: Computer Science Ph.D. Student, <a href='https://english.tau.ac.il/'>Tel Aviv University</a>.
 
 profile:
   align: right
@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. student at the School of Computer Science, Tel Aviv University, in the Software Modeling Lab under the supervision of Prof. Shahar Maoz. 
+I'm a Ph.D. student at the School of Computer Science, <a href='https://english.tau.ac.il/'>Tel Aviv University</a>, in the <a href='https://www.cs.tau.ac.il/~maozs/group.htmlc'>Software Modeling Lab</a> under the supervision of <a href='https://www.cs.tau.ac.il/~maozs/index.html'>Prof. Shahar Maoz</a>. 
 
-My research interests are in the intersection of Software Engineering, Programming Languages, and HCI. Currently, I am working on making reactive synthesis more usable as part of the SYNTECH project.
+My research interests are in the intersection of Software Engineering, Programming Languages, and HCI. Currently, I am working on making reactive synthesis more usable as part of the <a href='https://smlab.cs.tau.ac.il/syntech/'>SYNTECH</a> project.
 
 Before joining TAU, I completed my MSc. at Technion under the supervision of Prof. Yosi Gil and was a visiting researcher at the Penrose research group at Carnegie Mellon University, hosted by Prof. Joshua Sunshine.
 
