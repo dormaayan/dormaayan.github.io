@@ -23,7 +23,7 @@ I'm a Ph.D. student at the School of Computer Science, <a href='https://english.
 
 My research interests are in the intersection of Software Engineering, Programming Languages, and HCI. Currently, I am working on making reactive synthesis more usable as part of the <a href='https://smlab.cs.tau.ac.il/syntech/'>SYNTECH</a> project.
 
-Before joining TAU, I completed my MSc. at Technion under the supervision of Prof. Yosi Gil and was a visiting researcher at the Penrose research group at Carnegie Mellon University, hosted by Prof. Joshua Sunshine.
+Before joining TAU, I completed my MSc. at Technion under the supervision of Prof. Yosi Gil and was a visiting researcher at the <a href='https://penrose.cs.cmu.edu/'>Penrose</a> research group at Carnegie Mellon University, hosted by <a href='https://www.cs.cmu.edu/~jssunshi/'>Prof. Joshua Sunshine</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
