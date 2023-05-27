@@ -249,8 +249,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: ["Ma’ayan", "Dor", "D."]
-  first_name: ["Dor", "Ma’ayan", "D."]
+  last_name: ["Ma’ayan", "Dor", "D.", "Dor D. Ma’ayan"]
+  first_name: ["Dor", "Ma’ayan", "D.", "Dor D. Ma’ayan", "Dor D."]
 
   style: apa
   locale: en
