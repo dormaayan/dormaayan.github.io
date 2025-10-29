@@ -1,3 +1,20 @@
+@article{ASE25,
+author = {Ma’ayan, Dor and Maoz, Shahar and Ringert, JAN Oliver},
+title = {Evolution-Aware Heuristics for GR(1) Realizability Checking},
+booktitle={40th {IEEE/ACM} International Conference on Automated Software Engineering, {ASE} 2025} 
+year = {2025},
+abbr={ASE},
+selected={true},
+pdf={ASE25.pdf},
+bibtex_show={true},
+publisher    = {{IEEE}},
+abstract = {Reactive synthesis is an automated procedure to obtain a correct-by-construction reactive system from its temporal logic specification.
+Despite significant research progress over the past few decades, reactive synthesis is still in its early stages of practical adoption. One significant barrier to using reactive synthesis outside academia is the long realizability checking and synthesis time of specifications.
+
+This paper introduces a novel, evolution-aware approach for realizability checking. Our approach leverages the key observation that realizability checking is an operation that developers frequently perform during iterative specification development; therefore, utilizing intermediate data from previous realizability checks can substantially improve running times. Our approach computes a local semantic diff between previous and current versions of the specification, and, based on the diff and the previous realizability checking result, applies a set of sound heuristics. These heuristics reuse intermediate data collected during the previous specification's realizability checking to accelerate the current specification's realizability checking. Our evaluation demonstrates that these heuristics are applicable in 70% of cases from a real-world dataset containing thousands of specifications, and that their application significantly improves the running time of realizability checking.}
+
+}
+
 @article{TOSEM25,
 author = {Ma’ayan, Dor and Maoz, Shahar and Ringert, JAN Oliver},
 title = {Exploring Development Methods for Reactive Synthesis Specifications},
@@ -5,7 +22,6 @@ year = {2025},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 issn = {1049-331X},
-url = {https://doi.org/10.1145/3767159},
 doi = {10.1145/3767159},
 abstract = {Reactive synthesis is an automated procedure to obtain a correct-by-construction reactive system from its temporal logic specification. Despite significant research progress in the past decades, reactive synthesis is still in early-stage of use. Previous studies found that the lack of development methods for reactive synthesis specifications is one barrier to its wider adoption. In this paper, we adapt two development methods, an incremental method and a modular method, to the context of reactive synthesis specifications. The methods are based on existing software development methods on the one hand and studies about reactive synthesis on the other hand. Then, we report on an exploratory case study in which participants developed specifications using the two methods. We evaluated the methods using a mixed-method analysis that combines grounded theory analysis of Slack communication with participants, quantitative exploratory data analysis of the synthesis IDE usage logs, and qualitative independent expert review of the final specifications. Our findings show clear benefits of modular specification development in terms of ease of planning, synthesis time, fewer unrealizability issues, and faster debugging. However, the incremental development method was more natural and easy to use, and specifications developed incrementally were also easier to validate during the development process.},
 journal = {ACM Trans. Softw. Eng. Methodol.},
